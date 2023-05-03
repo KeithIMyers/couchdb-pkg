@@ -217,7 +217,7 @@ update-changelog:
 	cd $(DISTDIR) && dch -v $(VERSION)~$(PLATFORM) $(DEBCHANGELOG)
 
 dpkg:
-	cd $(DISTDIR) && dpkg-buildpackage -b -us -uc
+	cd $(DISTDIR) && dpkg-buildpackage -d -b -us -uc
 
 # lintian happens to be stuck on arm64 builds on some ubuntu/debian versions
 # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=964770
