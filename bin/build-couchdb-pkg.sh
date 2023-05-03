@@ -42,7 +42,7 @@ else
   # use master branch
   git clone https://github.com/apache/couchdb
   cd couchdb
-  ./configure
+  ./configure --spidermonkey-version=91
   make dist
   cd ..
 fi
