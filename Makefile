@@ -193,7 +193,7 @@ copy-couch:
 	cd $(COUCHDIR) && tar xfz *.tar.gz
 
 build-couch:
-	cd $(COUCHDIR) && ./configure && make dist
+	cd $(COUCHDIR) && ./configure --spidermonkey-version=91 && make dist
 
 # ######################################
 sm-ver-debian:
