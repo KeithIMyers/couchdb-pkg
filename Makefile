@@ -14,7 +14,7 @@ COUCHDIR=../couchdb
 DEBCHANGELOG="Automatically generated package from upstream."
 
 JS_DEBCHANGELOG="Automatically generated package from couchdb-ci repository."
-JS_VERSION=1.8.5-1.0.0+couch-2
+JS_VERSION=91-0
 
 export DEBFULLNAME="CouchDB Developers"
 export DEBEMAIL="dev@couchdb.apache.org"
