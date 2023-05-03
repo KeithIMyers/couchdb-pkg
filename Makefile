@@ -111,17 +111,17 @@ bionic: debian
 # Ubuntu 20.04 (Focal)
 ubuntu-focal: PLATFORM=focal
 ubuntu-focal: DIST=ubuntu-focal
-ubuntu-focal: SPIDERMONKEY=libmozjs-68-0
-ubuntu-focal: SPIDERMONKEY_DEV=libmozjs-68-dev
-ubuntu-focal: SM_VER=68
+ubuntu-focal: SPIDERMONKEY=libmozjs-91-0
+ubuntu-focal: SPIDERMONKEY_DEV=libmozjs-91-dev
+ubuntu-focal: SM_VER=91
 ubuntu-focal: focal
 focal: debian
 
 arm64-ubuntu-focal: PLATFORM=focal
 arm64-ubuntu-focal: DIST=ubuntu-focal
-arm64-ubuntu-focal: SPIDERMONKEY=libmozjs-68-0
-arm64-ubuntu-focal: SPIDERMONKEY_DEV=libmozjs-68-dev
-arm64-ubuntu-focal: SM_VER=68
+arm64-ubuntu-focal: SPIDERMONKEY=libmozjs-91-0
+arm64-ubuntu-focal: SPIDERMONKEY_DEV=libmozjs-91-dev
+arm64-ubuntu-focal: SM_VER=91
 arm64-ubuntu-focal: focal
 
 ppc64le-ubuntu-focal: PLATFORM=focal
