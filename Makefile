@@ -193,7 +193,7 @@ copy-couch:
 	cd $(COUCHDIR) && tar xfz *.tar.gz
 
 build-couch:
-	cd $(COUCHDIR) && make dist
+	cd $(COUCHDIR) && ./configure && make dist
 
 # ######################################
 sm-ver-debian:
