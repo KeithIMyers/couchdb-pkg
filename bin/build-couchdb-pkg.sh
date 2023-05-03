@@ -42,7 +42,7 @@ else
   # use master branch
   git clone https://github.com/apache/couchdb
   cd couchdb
-  ./configure -c
+  ./configure
   make dist
   cd ..
 fi
