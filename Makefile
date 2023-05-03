@@ -31,8 +31,8 @@ PKGARCH=$(shell arch)
 endif
 
 # Overridden for targets with SM60 in per-target env vars below.
-SPIDERMONKEY=libmozjs-91-0
-SPIDERMONKEY_DEV=libmozjs-91-dev
+SPIDERMONKEY=91
+SPIDERMONKEY_DEV=91
 
 # Try and guess the correct target...
 all:
